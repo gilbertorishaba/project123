@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Done With It</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Done With It</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#post-item">Post Item</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home" class="section">
+        <h1>Welcome to Done With It</h1>
+        <p>A platform to buy and sell used items.</p>
+    </section>
+
+    <section id="about" class="section">
+        <article>
+            <h2>About Us</h2>
+            <p>Done With It is the best place to find great deals on used items or to sell items you no longer need.</p>
+        </article>
+      
+    </section>
+
+    <section id="post-item" class="section">
+        <article>
+            <h2>Post Your Item</h2>
+            <form id="itemForm">
+                <label for="itemName">Item Name:</label>
+                <input type="text" id="itemName" name="itemName" required>
+
+                <label for="itemDescription">Item Description:</label>
+                <textarea id="itemDescription" name="itemDescription" required></textarea>
+
+                <label for="itemPrice">Price:</label>
+                <input type="number" id="itemPrice" name="itemPrice" required>
+
+                <button type="submit">Post Item</button>
+            </form>
+        </article>
+    </section>
+
+    <section id="contact" class="section">
+        <article>
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out for any questions or concerns.</p>
+        </article>
+    </section>
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
